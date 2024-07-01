@@ -1,0 +1,68 @@
+.crypto-card {
+  background-image: url('../../public/image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: 1px solid #e0e3e7;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: fit-content;
+  max-width: 100%;
+  transition: all 0.6s ease;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+body, html {
+  background: #000;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.crypto-card:hover {
+  box-shadow: 0px 0px 5px 4px rgba(78, 78, 78, 0.61);
+  transform: scale(1.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.label {
+  font-size: 1.25rem; 
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; 
+}
+
+.value {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.value:first-child {
+  text-transform: uppercase;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .crypto-card {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .label, .value {
+    font-size: 1rem; 
+  }
+}

@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: #000000;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(217, 217, 217);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  padding: 12px;
+  font-size: 1.2rem;
+  margin: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  width: 60%;
+  max-width: 90%;
+  background: #ffffff;
+}
+
+.input-bar {
+  text-align: center;
+  margin-top: 0px;
+}
+
+button {
+  padding: 12px 16px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 25px;
+  border: solid;
+  background: #ffffff;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+div {
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .App-header {
+    padding: 10px;
+  }
+
+  input {
+    width: 50%;
+    font-size: 1rem; 
+  }
+  button {
+    width: 40%;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
