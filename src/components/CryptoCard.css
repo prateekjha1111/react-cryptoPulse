@@ -59,7 +59,7 @@ table {
 @media (max-width: 600px) {
   .crypto-card {
     padding: 10px;
-    margin: 10px;
+    margin: 35px;
   }
 
   .label, .value {
